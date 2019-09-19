@@ -53,5 +53,50 @@ namespace AwesomeCalculator_Tests
             Assert.AreEqual(expectedResult, actualResult);
 
         }
+        [Test]
+        public void GetSubtraction_Inputminus999andminus999_Returns0()
+        {
+            //Arrage
+            double number1 = -999;
+            double number2 = -999;
+            double expectedResult = number1 - number2;
+            Calc testCalc = new Calc(number1, number2);
+            //Act
+            double actualResult = testCalc.GetSubtraction();
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+
+        }
+        [Test]
+        public void GetSubtraction_Inputminus10000andminus2000_Returnsminus8000()
+        {
+            //Arrage
+            double number1 = -10000;
+            double number2 = -2000;
+            double expectedResult = number1 - number2;
+            Calc testCalc = new Calc(number1, number2);
+            //Act
+            double actualResult = testCalc.GetSubtraction();
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+
+        }
+
+        [Test]
+        public void GetSubtraction_Input9point99and3point99_Returns6()
+        {
+            //Arrage
+            double number1 = 9.99;
+            double number2 = 3.99;
+            double expectedResult = number1 - number2;
+            Calc testCalc = new Calc(number1, number2);
+            //Act
+            double actualResult = testCalc.GetSubtraction();
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+
+        }
+
+
     }
 }
