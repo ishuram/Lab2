@@ -12,7 +12,7 @@ namespace AwesomeCalculator_Tests
     class ClassTests
     {
         [Test]
-        public void GetAddition_Inputminus99andminus1_Returnsminus100()
+        public void GetAddition_Inputminus99andminus1_Returnsminus100() //testcase1
         {
             //Arrage
             double number1 = -99;
@@ -28,7 +28,7 @@ namespace AwesomeCalculator_Tests
 
         }
         [Test]
-        public void GetAddition_Input2point99andminus1point99_Returns1()
+        public void GetAddition_Input2point99andminus1point99_Returns1()  //testcase2
         {
             //Arrage
             double number1 = 2.99;
@@ -45,7 +45,7 @@ namespace AwesomeCalculator_Tests
 
         }
         [Test]
-        public void GetAddition_Input999and32768_Returns33767()
+        public void GetAddition_Input999and32768_Returns33767()  //testcase3
         {
             //Arrage
             double number1 = 999;
@@ -61,7 +61,7 @@ namespace AwesomeCalculator_Tests
 
         }
         [Test]
-        public void GetSubtraction_Inputminus999andminus999_Returns0()
+        public void GetSubtraction_Inputminus999andminus999_Returns0()  //testcase4
         {
             //Arrage
             double number1 = -999;
@@ -77,7 +77,7 @@ namespace AwesomeCalculator_Tests
 
         }
         [Test]
-        public void GetSubtraction_Inputminus10000andminus2000_Returnsminus8000()
+        public void GetSubtraction_Inputminus10000andminus2000_Returnsminus8000() //testcase5
         {
             //Arrage
             double number1 = -10000;
@@ -94,7 +94,7 @@ namespace AwesomeCalculator_Tests
         }
 
         [Test]
-        public void GetSubtraction_Input9point99and3point99_Returns6()
+        public void GetSubtraction_Input9point99and3point99_Returns6()  //testcase6
         {
             //Arrage
             double number1 = 9.99;
@@ -110,7 +110,7 @@ namespace AwesomeCalculator_Tests
 
         }
         [Test]
-        public void GetMultiplication_Input3point9and3point3_Returns12point87()
+        public void GetMultiplication_Input3point9and3point3_Returns12point87()  //testcase7
         {
             //Arrage
             double number1 = 3.9;
@@ -127,7 +127,7 @@ namespace AwesomeCalculator_Tests
 
         }
         [Test]
-        public void GetMultiplication_Input0and0_Returns0()
+        public void GetMultiplication_Input0and0_Returns0()  //testcase8
         {
             //Arrage
             double number1 = 0;
@@ -145,7 +145,7 @@ namespace AwesomeCalculator_Tests
         }
 
         [Test]
-        public void GetMultiplication_Inputminus7andminus9_Returnsminus63()
+        public void GetMultiplication_Inputminus7andminus9_Returnsminus63() //testcase9
         {
             //Arrage
             double number1 = -7;
@@ -163,7 +163,7 @@ namespace AwesomeCalculator_Tests
         }
 
         [Test]
-        public void GetDivision_Inputminus10andminus5_Returnsminus2()
+        public void GetDivision_Inputminus10andminus5_Returnsminus2()  //testcase10
         {
             //Arrage
             double number1 = -10;
@@ -181,7 +181,7 @@ namespace AwesomeCalculator_Tests
         }
 
         [Test]
-        public void GetDivision_Input8point8andminus2_Returnsminus4point4()
+        public void GetDivision_Input8point8andminus2_Returnsminus4point4()  //testcase11
         {
             //Arrage
             double number1 = 8.8;
@@ -199,7 +199,7 @@ namespace AwesomeCalculator_Tests
         }
 
         [Test]
-        public void GetDivision_Input0and1_Returns0()
+        public void GetDivision_Input0and1_Returns0() //testcase12
         {
             //Arrage
             double number1 = 0;
